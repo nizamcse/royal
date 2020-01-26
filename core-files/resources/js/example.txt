@@ -1,0 +1,1 @@
+<auto-complete :items="counterList" :value="'id'" :displayText="'name'" :name="'counter'" :label="'Add Counter/ Agent'"></auto-complete>

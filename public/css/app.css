@@ -1,0 +1,113 @@
+.p-15{
+    padding: 15px;
+}
+.cyan-bg
+{
+    background-color: #00ced1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+}
+.search-form-group{
+    position: relative;
+}
+.search-result{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f7f7f7;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    z-index: 2;
+    overflow: scroll;
+    height: 150px;
+}
+
+.search-result li{
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+.text-danger{
+    color: red;
+    font-weight: bold;
+}
+
+.box{
+    border-radius: 0px;
+    border-top: 0px;
+    margin: 15px;
+    width: calc(100% - 30px);
+}
+
+.badge-square{
+    border-radius: 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: seagreen;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.btn-raised,.btn-raised:hover,.btn-raised:focus,.btn-raised:active{
+    background-color: #fff;
+    border: 0px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 7px;
+    cursor: pointer;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all 450ms ease-in-out;
+}
+
+.btn-raised i{
+    font-size: 18px;
+    vertical-align: middle;
+    margin-right: 7px;
+    color: #189e18;
+}
+.deduction-list-group > .list-group-item ,
+.bonus-list-group > .list-group-item
+{
+    display: block;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.deduction-list-group > .list-group-item >a ,
+.bonus-list-group > .list-group-item >a{
+    display: block;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.d-block{
+    display: block;
+    width: 100%;
+}
+
+.bg-success{
+    background-color: #008b8b;
+    color: #FFF;
+}
+
+.response-text{
+    padding: 10px;
+}
+
+.vdp-datepicker__calendar{
+    right: 0 !important;
+    z-index: 9999 !important;
+}
